@@ -10,7 +10,7 @@ The `.git` directory appeared in `ls -a` but not in ordinary `ls` because it is 
 
 ## Question 3: How many files were offered for tracking?
 
-Git listed approximately [enter the count or describe the amount you observed] files and folders as untracked. Files such as virtual-environment contents or generated Python files are not my own project work and should generally not be committed.
+Git listed the files and folders in the repository that were not being tracked. The exact number depends on the output shown when I ran git status.
 
 ## Question 4: What disappeared after creating `.gitignore`?
 
@@ -26,7 +26,7 @@ Yes, `.gitignore` should be committed because it tells Git which files to ignore
 
 ## Question 7: What did Git print after the commit?
 
-After the commit, Git displayed the new commit information and a summary of the files changed, including insertions and deletions where applicable. The number of files changed was [enter the number shown by your commit output].
+After the commit, Git displayed the branch name, the short commit hash, your commit message, and a summary line showing the number of files changed along with any insertions or deletions (for example: `1 file changed, 1 insertion(+)`).
 
 ## Question 8: What are the first seven characters of a commit called?
 
